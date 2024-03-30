@@ -1,1 +1,44 @@
+.background{
+    background-color: #744B7B;
+    border: 1px solid black ;
+    width: 1402px;
+    height: 2400px;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.skrin{
+    background-color: #414141;
+    width: 1230px;
+    height: 741px;
+    margin: 5% auto;
+    border-radius: 35px;
+}
+
+.btn{
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    border-radius: 90px;
+    margin: 35px;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.all-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
