@@ -1,1 +1,45 @@
+.background{
+    background-color: #3c003c;
+    width: 1080px;
+    height: 2400px;
+    margin: 0 auto;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
 
+}
+.kalq{
+    background-color: #ff0000;
+}
+.screen{
+    background-color: #ffff00;
+}
+.btns{
+    background-color: #00ff00;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.btn{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin:35px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    font-family: "imprima";
+}
+.yellow{
+    background-color: #E5D200;
+}
+.blue{
+    background-color: #00A9A3;
+}
+.pink{
+    background-color: #E2808B;
+}
