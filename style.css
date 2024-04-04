@@ -1,1 +1,82 @@
+.container {                                    /* Основной блок, не трогайте его */
 
+    display: block;
+
+    width: 40%;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+}
+
+.logo {                                         /* Блок логотипа */
+
+    display: block;                             
+
+    height: 35px;
+
+    color: transparent;                         /* Измени значение на ЦВЕТ что-бы отобразить буквы*/
+
+}
+
+.screen {                                       /* Блок экранчика */
+
+    display: flex;
+
+    height: 100px;
+
+    background-color: black;
+    
+    color: antiquewhite;
+
+    font-size:  50px;
+
+    align-items: center;
+
+    justify-content: end;
+
+    padding: 5px;
+}
+
+.buttons {                                      /* Блок с кнопками */
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 5px;
+
+}
+
+    .buttons .row {                             /* Строчки кнопок */
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+        .buttons .row .btn {                    /* Сами кнопки */
+
+            display: flex;
+
+            background-color: gray;
+
+            border: 2px solid black;
+
+            border-radius: 35px;
+
+            width: 100px;
+
+            height: 100px;
+
+            margin: 1% auto;
+
+            cursor: pointer;
+
+            justify-content: center;
+
+            align-items: center;
+
+        }
