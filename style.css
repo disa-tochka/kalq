@@ -20,24 +20,59 @@
 
 }
 
-.screen {                                       /* Блок экранчика */
+.screen_background {                                       /* Блок экранчика */
 
     display: flex;
+
+    width: 65%;
+
+    margin: 0 auto;
 
     height: 100px;
 
     background-color: black;
-    
+
     color: antiquewhite;
 
     font-size:  50px;
-
-    align-items: center;
-
-    justify-content: end;
-
-    padding: 5px;
+    
+    
 }
+
+    .screen_background .screen {
+        display: flex;
+
+        width: 100%;
+
+        align-items: center;
+
+        justify-content: end;
+
+        padding: 5px;
+    }
+
+    .screen_background .screen.and_btn {
+
+        width: 90%;
+
+        height: 90%;
+
+        background-color: gray;
+    }
+
+    .screen_background .btn{
+
+        width: 5%;
+
+        margin: 1%;
+
+        cursor: pointer;
+
+        display: flex;
+
+        align-items: center;
+
+    }
 
 .buttons {                                      /* Блок с кнопками */
 
@@ -55,6 +90,8 @@
 
         flex-direction: row;
 
+        justify-content: center;
+
     }
 
         .buttons .row .btn {                    /* Сами кнопки */
@@ -71,7 +108,7 @@
 
             height: 100px;
 
-            margin: 1% auto;
+            margin: 5px;
 
             cursor: pointer;
 
@@ -79,4 +116,8 @@
 
             align-items: center;
 
+        }
+
+        .buttons .row .btn.big {
+            width: 210px;
         }
