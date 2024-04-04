@@ -1,44 +1,138 @@
-.background{
-    background-color: #744B7B;
-    border: 1px solid black ;
-    width: 1402px;
-    height: 2400px;
-    display: flex;
-    flex-direction: column;
+.container {                                    /* Основной блок, не трогайте его */
 
-}
+    display: block;
 
-.skrin{
-    background-color: #414141;
-    width: 1230px;
-    height: 741px;
-    margin: 5% auto;
-    border-radius: 35px;
-}
+    width: 30%;
 
-.btn{
-    background-color: black;
-    width: 240px;
-    height: 240px;
-    border-radius: 90px;
-    margin: 35px;
-}
-.yellow{
-    background-color: yellow;
-}
-.purple{
-    background-color: purple;
-}
-.all-btn{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 90%;
+    height: 100%;
+
     margin: 0 auto;
+
+    background-color: #744B7B;
+
+    border-radius: 30px;
+
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.logo {                                         /* Блок логотипа */
+
+    display: block;                             
+
+    height: 35px;
+
+    color: black;    /* Измени значение на ЦВЕТ что-бы отобразить буквы*/
+
+    margin-left: 5%;
+
 }
+
+.screen_background {                                       /* Блок экранчика */
+
+    display: flex;
+
+    width: 82%;
+
+    margin: 0 auto;
+
+    height: 100px;
+
+    background-color: black;
+
+    color: antiquewhite;
+
+    font-size:  50px;
+    
+}
+
+    .screen_background .screen {
+        display: flex;
+
+        width: 100%;
+
+        align-items: center;
+
+        justify-content: end;
+
+        padding: 5px;
+
+    
+    }
+
+    .screen_background .screen.and_btn {
+
+        width: 90%;
+
+        height: 90%;
+
+        background-color: gray;
+    }
+
+    .screen_background .btn{
+
+        width: 5%;
+
+        margin: 1%;
+
+        cursor: pointer;
+
+        display: flex;
+
+        align-items: center;
+
+    }
+
+.buttons {                                      /* Блок с кнопками */
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 5px;
+
+}
+
+    .buttons .row {                             /* Строчки кнопок */
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+    }
+
+        .buttons .row .btn {                    /* Сами кнопки */
+
+            display: flex;
+
+            background-color: #414141;
+
+            border: 2px solid black;
+
+            border-radius: 35px;
+
+            width: 100px;
+
+            height: 100px;
+
+            margin: 5px;
+
+            cursor: pointer;
+
+            justify-content: center;
+
+            align-items: center;
+
+        }
+
+        .buttons .row .btn .yellow{
+            background-color: #A4A650;
+        }
+        
+        .buttons .row .btn .purple{
+            background-color: #C653C1;
+        }
+
+        .buttons .row .btn.big {
+            width: 210px;
+        }
