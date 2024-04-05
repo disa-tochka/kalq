@@ -30,7 +30,7 @@
 
     display: flex;
 
-    width: 82%;
+    width: 85%;
 
     margin: 0 auto;
 
@@ -89,6 +89,10 @@
 
     padding: 5px;
 
+    color: antiquewhite;
+
+    font-size: 30px;
+
 }
 
     .buttons .row {                             /* Строчки кнопок */
@@ -125,11 +129,11 @@
 
         }
 
-        .buttons .row .btn .yellow{
+        .buttons .row .btn.yellow{
             background-color: #A4A650;
         }
         
-        .buttons .row .btn .purple{
+        .buttons .row .btn.purple{
             background-color: #C653C1;
         }
 
