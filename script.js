@@ -51,19 +51,27 @@ function accept_action() {
         
         if(last_action == "+"){
 
-            screen.innerHTML = +a + (+a * (+screen.innerHTML / 100));
+            screen.innerHTML = +a + (+a * (+screen.innerHTML / 100))
+
+            screen.innerHTML = Math.round(+screen.innerHTML * 100) /100
 
         } else if(last_action == "*") {
 
-            screen.innerHTML = +a * (+screen.innerHTML / 100);
+            screen.innerHTML = +a * (+screen.innerHTML / 100)
+
+            screen.innerHTML = Math.round(+screen.innerHTML * 100) /100
 
         } else if (last_action == "-") {
 
-            screen.innerHTML = +a - (+a * (+screen.innerHTML / 100));
+            screen.innerHTML = +a - (+a * (+screen.innerHTML / 100))
+
+            screen.innerHTML = Math.round(+screen.innerHTML * 100) /100
 
         } else if (last_action == "/") {
 
-            screen.innerHTML = +a / (+screen.innerHTML / 100);
+            screen.innerHTML = +a / (+screen.innerHTML / 100)
+
+            screen.innerHTML = Math.round(+screen.innerHTML * 100) /100
 
         }
 
@@ -73,7 +81,9 @@ function accept_action() {
 
         if (+screen.innerHTML != 0) {
 
-            screen.innerHTML = +a / +screen.innerHTML;
+            screen.innerHTML = +a / +screen.innerHTML
+            
+            screen.innerHTML = Math.round(+screen.innerHTML * 100) /100
     
         } else {
     

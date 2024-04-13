@@ -30,7 +30,7 @@
 
     display: flex;
 
-    width: 85%;
+    width: 90%;
 
     margin: 0 auto;
 
@@ -69,15 +69,17 @@
 
     .screen_background .btn{
 
-        width: 5%;
+        width: 10%;
 
-        margin: 1%;
+        padding: 2px;
 
         cursor: pointer;
 
         display: flex;
 
         align-items: center;
+
+        justify-content: center;
 
     }
 
@@ -110,8 +112,6 @@
             display: flex;
 
             background-color: #414141;
-
-            border: 2px solid black;
 
             border-radius: 35px;
 
