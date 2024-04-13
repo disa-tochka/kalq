@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
 .container {                                    /* Основной блок, не трогайте его */
 
     display: block;
 
-    width: 40%;
+    width: 28%;
 
     height: 100%;
 
     margin: 0 auto;
+
+    background-color: #3c003c;
+
+    
 
 }
 
@@ -16,7 +22,11 @@
 
     height: 35px;
 
-    color: transparent;                         /* Измени значение на ЦВЕТ что-бы отобразить буквы*/
+    color: #FFFFFF;
+    
+    text-align: center;
+    
+    font-size: 175%;/* Измени значение на ЦВЕТ что-бы отобразить буквы*/
 
 }
 
@@ -24,19 +34,22 @@
 
     display: flex;
 
-    width: 65%;
+    width: 90%;
+
+    padding: 15px;
 
     margin: 0 auto;
 
     height: 100px;
 
-    background-color: black;
+    position: relative;
 
     color: antiquewhite;
 
     font-size:  50px;
     
-    
+    height: 450px;  
+
 }
 
     .screen_background .screen {
@@ -49,6 +62,11 @@
         justify-content: end;
 
         padding: 5px;
+
+        background-color: #7d7d7d;
+
+        border-radius: 45px;
+
     }
 
     .screen_background .screen.and_btn {
@@ -58,6 +76,8 @@
         height: 90%;
 
         background-color: gray;
+
+        height: 920px;
     }
 
     .screen_background .btn{
@@ -102,7 +122,7 @@
 
             border: 2px solid black;
 
-            border-radius: 35px;
+            border-radius: 360px;
 
             width: 100px;
 
@@ -118,6 +138,32 @@
 
         }
 
+        .buttons .row .btn.yel{
+            background-color: #e5d200;
+        }
+
+        .buttons .row .btn.blue{
+            background-color: #00a9a3
+        }
+
+        .buttons .row .btn.pink{
+            background-color: #e2808b
+        }
+
         .buttons .row .btn.big {
             width: 210px;
         }
+
+    .btn{
+        font-size: 40px;
+        color: #FFFFFF;
+        font-family: "Imprima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .bluu{
+        color:blue;
+    }
+    .reeed{
+        color:red;
+    }
